@@ -4,7 +4,8 @@ html, body, * {
     box-sizing: border-box;
     font-size: 62.5%;
 }
-.parent {font-size: 10px;}
-.px-size {font-size: 10px;}
-.rem-size {font-size: 1rem;}
-.em-size {font-size: 1em;}
+.lol {display: flex;}
+.parent {display: flex;
+ }
+ 
+
