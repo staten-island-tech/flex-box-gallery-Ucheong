@@ -2,10 +2,12 @@ html, body, * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-size: 62.5%;
+    font-family: 'Bungee Spice', cursive;
+    font-size: 100px;
 }
-.lol {display: flex;}
-.parent {display: flex;
- }
+
+#header {
+    text-align: center;}
+
  
 
