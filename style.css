@@ -10,8 +10,31 @@ html, body, * {
 #header {
     text-align: center;
     font-size: 100px;
-    color: white;
+    color: white;height: auto;
+
 }
+
+.cartoon {
+    text-align: center;
+    height: 50vh;
+    box-shadow: 10px 5px 5px white;height: auto;
+}
+
+.anime {
+    text-align: center;
+    height: 50vh;
+    box-shadow: 10px 5px 5px white;height: auto;
+}
+
+.randompictures {
+    text-align: center;
+    height: 50vh;
+    box-shadow: 10px 5px 5px white
+}
+    
+.column-1 {border: solid white;border-radius: 20px}
+.column-2 {border: solid white;border-radius: 20px}
+.column-3 {border: solid white;border-radius: 20px}
 
 
 
