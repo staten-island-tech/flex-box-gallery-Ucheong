@@ -1,27 +1,31 @@
-html, body, * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Bungee Spice', cursive;
-    font-size: 62.5%;
-    background-color: black;
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bungee Spice", cursive;
+  font-size: 62.5%;
+  background-color: teal;
 }
-
 
 #header {
-    text-align: center;
-    font-size: 100px;
-    background-color: white
+  text-align: center;
+  font-size: 100px;
+  margin-bottom: 100px;
 }
 
+.Nina {
 
-.parent{height: 50%;}
-.Shrek {object-fit: contain;}
-.Mike {object-fit: contain;}
+  box-shadow: 10px 5px 5px black;
+  width: 25vw;
+  }
 
-
-   
-    
-
- 
-
+.parent {
+display: flex;
+flex-direction: row;
+margin: 0 auto;
+align-items: center;
+justify-content: space-around;
+margin-bottom: 100px;
+}
