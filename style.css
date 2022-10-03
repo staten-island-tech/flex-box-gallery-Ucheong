@@ -9,23 +9,21 @@ body,
   background-color: teal;
 }
 
-#header {
+#Header {
   text-align: center;
   font-size: 100px;
   margin-bottom: 100px;
 }
 
 .Nina {
-
-  box-shadow: 10px 5px 5px black;
+  box-shadow: 1rem 5px 5px black;
   width: 25vw;
   }
 
 .parent {
 display: flex;
 flex-direction: row;
-margin: 0 auto;
 align-items: center;
 justify-content: space-around;
-margin-bottom: 100px;
+margin-bottom: 10rem;
 }
