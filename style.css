@@ -11,16 +11,13 @@ html, body, * {
 #header {
     text-align: center;
     font-size: 100px;
-    background-color: white;
-    
+    background-color: white
 }
 
-.imgs {
-    float: left;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-}
+
+.parent{height: 50%;}
+.Shrek {object-fit: contain;}
+.Mike {object-fit: contain;}
 
 
    
