@@ -11,12 +11,12 @@ body,
 
 #Header {
   text-align: center;
-  font-size: 100px;
-  margin-bottom: 100px;
+  font-size: 10rem;
+  margin-bottom: 10rem;
 }
 
 .Nina {
-  box-shadow: 1rem 5px 5px black;
+  box-shadow: 1rem 0.5rem 0.5rem black;
   width: 25vw;
   }
 
