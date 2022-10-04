@@ -5,7 +5,7 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-family: "Bungee Spice", cursive;
-  font-size: 62.5%;
+  font-size: 62.5%; /*100% is 16px, but we want the size to be 10px */
   background-color: teal;
 }
 
@@ -18,12 +18,12 @@ body,
 .Nina {
   box-shadow: 1rem 0.5rem 0.5rem black;
   width: 25vw;
+  margin-bottom: 10rem;
   }
 
-.parent {
+.Parent {
 display: flex;
-flex-direction: row;
+flex-wrap:wrap;
 align-items: center;
 justify-content: space-around;
-margin-bottom: 10rem;
 }
