@@ -15,10 +15,13 @@ body,
   margin-bottom: 10rem;
 }
 
-.Nina {
+.Nina{
   box-shadow: 1rem 0.5rem 0.5rem black;
   width: 25vw;
   margin-bottom: 10rem;
+  transition: 0.3s;
+  z-index: 1;
+  
   }
 
 .Parent {
@@ -26,4 +29,15 @@ display: flex;
 flex-wrap:wrap;
 align-items: center;
 justify-content: space-around;
+}
+
+.Parent:hover .Nina:not(:hover)
+{
+    transform:scale(0.8) ;
+    opacity: 0.3;
+}
+
+.Parent:hover {
+    outline: 1rem;
+    outline-offset: 1rem black;
 }
