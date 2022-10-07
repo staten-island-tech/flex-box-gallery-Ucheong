@@ -12,32 +12,46 @@ body,
 #Header {
   text-align: center;
   font-size: 10rem;
-  margin-bottom: 10rem;
 }
-
-.Nina{
+.animation {
+  height: 1rem;
+  width: 1rem;
+  margin-bottom: 2rem;
+  animation: test 2s infinite;
+}
+@keyframes test {
+  0% {
+    right: 50%;
+    left: 100%;
+    background-color: black;
+  }
+  100% {
+    left: 50%;
+    right: 0%;
+    background-color: black;
+  }
+}
+.Nina {
   box-shadow: 1rem 0.5rem 0.5rem black;
   width: 25vw;
   margin-bottom: 10rem;
-  transition: 0.3s;
-  z-index: 1;
-  
-  }
+  transition: ;
+  outline-offset: 1rem;
+}
 
 .Parent {
-display: flex;
-flex-wrap:wrap;
-align-items: center;
-justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.Parent:hover .Nina:not(:hover)
-{
-    transform:scale(0.8) ;
-    opacity: 0.3;
+.Parent:hover .Nina:not(:hover) {
+  transform: scale(0.9);
+  opacity: 0.3;
 }
 
-.Parent:hover {
-    outline: 1rem;
-    outline-offset: 1rem black;
+.Nina:hover {
+  outline: 1rem solid white;
+  transform: scale(1.1);
 }
