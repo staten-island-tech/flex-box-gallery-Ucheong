@@ -38,8 +38,8 @@ body,
     background-color: black;
   }
   100% {
-    left: 40%;
     right: 40%;
+    left: 40%;
     background-color: black;
   }
 }
