@@ -91,3 +91,8 @@ body,
 #img-5:hover {
   outline: 1rem solid green;
 }
+
+#img-6:hover {
+  transform: scale(2) rotate(360deg);
+  transition: all 1s ease-in-out 0s ;
+}
