@@ -23,7 +23,10 @@ body,
   width: 1rem;
   border-radius: 50%;
   animation: underline 3s infinite;
-  position: absolute;
+  position: relative;
+}
+
+@media only screen and (min-width: 390px) {
 }
 
 @keyframes underline {
@@ -52,11 +55,17 @@ body,
   outline-offset: 1rem;
 }
 
+@media only screen and (min-width: 390px) {
+}
+
 .Parent {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+}
+
+@media only screen and (min-width: 390px) {
 }
 
 .Parent:hover .Nina:not(:hover) {
@@ -94,5 +103,5 @@ body,
 
 #img-6:hover {
   transform: scale(2) rotate(360deg);
-  transition: all 1s ease-in-out 0s ;
+  transition: all 1s ease-in-out 0s;
 }
