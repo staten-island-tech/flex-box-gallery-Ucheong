@@ -26,19 +26,23 @@ body,
   position: absolute;
 }
 
-@media only screen and (min-width: 390px) {
-  #Header{
-  display: flex;
-  text-align: center;
+@media only screen and (min-width: 390px) and (max-width: 833px)
+{
+ #Header{ 
+  font-size: 3rem; 
+ }
 }
-}
+
 
 @media only screen and (min-width: 834px) and (max-width: 1194px) {
   #Header {
-
+   font-size: 7rem;
   }
 } 
 
+@media screen and {
+  
+}
 @keyframes underline {
   0% {
     left: 60%;
