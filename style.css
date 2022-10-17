@@ -27,11 +27,11 @@ body,
 }
 
 @media only screen and (min-width: 390px) {
-  .Header{display: flex;}
+  #Header{display: flex;}
 }
 
 @media only screen and (min-width: 834px) and (max-width: 1194px) {
-  
+
 } 
 
 @keyframes underline {
