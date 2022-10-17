@@ -23,11 +23,16 @@ body,
   width: 1rem;
   border-radius: 50%;
   animation: underline 3s infinite;
-  position: relative;
+  position: absolute;
 }
 
 @media only screen and (min-width: 390px) {
+  .Header{display: flex;}
 }
+
+@media only screen and (min-width: 834px) and (max-width: 1194px) {
+  
+} 
 
 @keyframes underline {
   0% {
@@ -55,9 +60,6 @@ body,
   outline-offset: 1rem;
 }
 
-@media only screen and (min-width: 390px) {
-}
-
 .Parent {
   display: flex;
   flex-wrap: wrap;
@@ -65,8 +67,6 @@ body,
   justify-content: space-around;
 }
 
-@media only screen and (min-width: 390px) {
-}
 
 .Parent:hover .Nina:not(:hover) {
   transform: scale(0.9);
