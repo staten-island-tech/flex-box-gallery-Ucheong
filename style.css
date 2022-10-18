@@ -26,37 +26,32 @@ body,
   position: absolute;
 }
 
-@media only screen and (min-width: 390px) and (max-width: 833px)
-{
- #Header{ 
-  font-size: 3rem; 
- }
+@media only screen and (min-width: 390px) and (max-width: 833px) {
+  #Header {
+    font-size: 3rem;
+  }
 }
-
 
 @media only screen and (min-width: 834px) and (max-width: 1194px) {
   #Header {
-   font-size: 7rem;
+    font-size: 7rem;
   }
-} 
-
-@media screen and {
-  
 }
+
 @keyframes underline {
   0% {
-    left: 60%;
-    right: 40%;
+    left: 60vw;
+    right: 40vw;
     background-color: black;
   }
   50% {
-    right: 60%;
-    left: 40%;
+    right: 60vw;
+    left: 40vw;
     background-color: black;
   }
   100% {
-    left: 60%;
-    right: 40%;
+    left: 60vw;
+    right: 40vw;
     background-color: black;
   }
 }
@@ -66,7 +61,6 @@ body,
   width: 25vw;
   margin-bottom: 10rem;
   transition: all 0.3s;
-  outline-offset: 1rem;
 }
 
 .Parent {
@@ -76,21 +70,18 @@ body,
   justify-content: space-around;
 }
 
-
 .Parent:hover .Nina:not(:hover) {
   transform: scale(0.9);
   opacity: 0.3;
 }
 
 .Nina:hover {
-  outline: 1rem solid white;
   transform: scale(1.1);
 }
 
 #img-1:hover {
   border: solid blue;
   box-shadow: none;
-  outline: 0ch;
 }
 
 #img-2:hover {
@@ -102,7 +93,6 @@ body,
 }
 
 #img-4:hover {
-  outline: 0ch;
   box-shadow: 1rem 0.5rem 0.5rem purple;
 }
 
@@ -113,4 +103,12 @@ body,
 #img-6:hover {
   transform: scale(2) rotate(360deg);
   transition: all 1s ease-in-out 0s;
+}
+
+#img-7:hover {
+  box-shadow: none;
+}
+
+#img-9:hover{
+  opacity: 0.1;
 }
